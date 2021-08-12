@@ -1,0 +1,1 @@
+Trying to update the django app in lightsail
