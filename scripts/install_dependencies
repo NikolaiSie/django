@@ -1,4 +1,3 @@
 #!/bin/bash
 yum install -y httpd python-pip mod_wsgi
-
-
+pip install -r /home/ec2-user/writing/requirements.txt
