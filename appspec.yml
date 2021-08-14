@@ -1,8 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
   - source: /projects
     destination: /home/ec2-user/
   - source: /conf/django.conf
