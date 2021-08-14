@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-  - source: /projects/writing
+  - source: /projects
     destination: /home/ec2-user/
   - source: /conf/django.conf
     destination: /etc/httpd/conf.d/
