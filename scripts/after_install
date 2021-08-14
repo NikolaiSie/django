@@ -6,14 +6,14 @@ chmod 710 /home/ec2-user
 chmod 664 /home/ec2-user/writing/db.sqlite3
 chown :apache /home/ec2-user/writing/db.sqlite3
 
-cd /usr/local
-wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
-tar xzf Python-3.8.5.tgz
-cd Python-3.8.5
-./configure --enable-optimizations --enable-loadable-sqlite-extensions
-make altinstall
-rm Python-3.8.5
-rm.Python-3.8.5.tgz
+#cd /usr/local
+#wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
+#tar xzf Python-3.8.5.tgz
+#cd Python-3.8.5
+#./configure --enable-optimizations --enable-loadable-sqlite-extensions
+#make altinstall
+#rm Python-3.8.5cd
+#rm.Python-3.8.5.tgz
 
 cd /home/ec2-user/writing
 virtualenv --python=/usr/local/bin/python3.8 django-env
