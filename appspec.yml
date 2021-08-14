@@ -2,9 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /projects
-    destination: /var/www/html/
-  - source: /conf/django.conf
-    destination: /etc/httpd/conf.d/
+    destination: /home/ec2-user/
 file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
