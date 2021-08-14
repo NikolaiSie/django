@@ -3,6 +3,10 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+  - source: /projects/writing
+    destination: /home/ec2-user/
+  - source: /conf/django.conf
+    destination: /etc/httpd/conf.d/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
