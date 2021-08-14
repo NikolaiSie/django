@@ -1,5 +1,5 @@
 #!/bin/bash
 yum install update
 yum install gcc openssl-devel bzip2-devel libffi-devel
-yum install libsqlite3-dev libsqlite3
+yum install sqlite-devel libsqlite3-dev
 yum install -y httpd python-pip mod_wsgi
