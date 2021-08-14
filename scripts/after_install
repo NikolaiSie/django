@@ -1,23 +1,23 @@
 #!/bin/bash
 
 
-
-cd django-env
-cd /usr/local
-wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
-tar xzf Python-3.8.5.tgz
-cd Python-3.8.5
-./configure --enable-optimizations
-make altinstall
-
-cd /home/ec2-user/writing
-virtualenv --python=/usr/local/bin/python3.8 django-env
-source django-env/bin/activate
-deactivate
-
-# python3.8 -m pip install django
-
 usermod -a -G ec2-user apache
 chmod 710 /home/ec2-user
 chmod 664 /home/ec2-user/writing/db.sqlite3
 chown :apache /home/ec2-user/writing/db.sqlite3
+
+#cd /usr/local
+#wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
+#tar xzf Python-3.8.5.tgz
+#cd Python-3.8.5
+#./configure --enable-optimizations
+#make altinstall
+#rm Python-3.8.5
+#rm.Python-3.8.5.tgz
+
+cd /home/ec2-user/writing
+virtualenv --python=/usr/local/bin/python3.8 django-env
+source django-env/bin/activate
+python3.8 -m pip install -r requirements.txt
+
+
