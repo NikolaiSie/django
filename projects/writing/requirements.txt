@@ -1,4 +1,5 @@
-asgiref
-Django
-numpy
-sqlparse
+asgiref==3.4.1
+Django==3.2.6
+numpy==1.21.1
+pytz==2020.1
+sqlparse==0.4.1
