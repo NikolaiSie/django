@@ -3,3 +3,8 @@ usermod -a -G ec2-user apache
 chmod 710 /home/ec2-user
 chmod 664 /home/ec2-user/writing/db.sqlite3
 chown :apache /home/ec2-user/writing/db.sqlite3
+
+cd /home/ec2-user/writing
+virtualenv django-env
+source django-env/bin/activate
+deactivate
