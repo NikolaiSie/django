@@ -7,13 +7,13 @@ chmod 664 /home/ec2-user/writing/db.sqlite3
 chmod a+x /home/ec2-user/writing/writing/wsgi.py
 chown :apache /home/ec2-user/writing/db.sqlite3
 
-cd /usr/local
-wget https://www.python.org/ftp/python/3.6.12/Python-3.6.12.tgz
-tar xzf Python-3.6.12.tgz
-cd Python-3.6.12
-./configure --enable-optimizations --enable-loadable-sqlite-extensions
-make altinstall
-rm.Python-3.6.12.tgz
+#cd /usr/local
+#wget https://www.python.org/ftp/python/3.6.12/Python-3.6.12.tgz
+#tar xzf Python-3.6.12.tgz
+#cd Python-3.6.12
+#./configure --enable-optimizations --enable-loadable-sqlite-extensions
+#make altinstall
+#rm.Python-3.6.12.tgz
 
 cd /home/ec2-user/writing
 virtualenv --python=/usr/local/bin/python3.6 django-env
