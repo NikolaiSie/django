@@ -1,6 +1,7 @@
+import sys
 def application(environ, start_response):
     status = '200 OK'
-    output = b'Hooray, mod_wsgi is working'
+    output = b'Hooray, mod_wsgi is working with ' + sys.version
 
     response_headers = [('Content-type', 'text/plain'),
                         ('Content-Length', str(len(output)))]
