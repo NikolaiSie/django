@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /projects
-    destination: /home/ec2-user/
+    destination: /var/www/html/
   - source: /conf/httpd.conf
     destination: /etc/httpd/conf
 file_exists_behavior: OVERWRITE
