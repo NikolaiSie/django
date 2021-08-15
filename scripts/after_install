@@ -15,8 +15,8 @@ chown :apache /var/www/html/writing/db.sqlite3
 #rm.Python-3.6.2.tgz
 
 cd /var/www/html/writing
-virtualenv --python=/usr/local/bin/python3.6 django-env
+virtualenv --python=/usr/local/bin/python django-env
 source django-env/bin/activate
-python3.6 -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 
