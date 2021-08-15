@@ -3,4 +3,3 @@ Django==2.1.*
 numpy==1.21.1
 pytz==2020.1
 sqlparse==0.4.1
-os==
