@@ -1,4 +1,4 @@
 #!/bin/bash
-yum install update
-yum install gcc openssl-devel bzip2-devel libffi-devel
-yum install -y httpd python-pip mod_wsgi
+#yum install update
+#yum install gcc openssl-devel bzip2-devel libffi-devel
+#yum install -y httpd python-pip mod_wsgi
