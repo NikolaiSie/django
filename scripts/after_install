@@ -4,6 +4,7 @@
 usermod -a -G ec2-user apache
 chmod 710 /home/ec2-user
 chmod 664 /home/ec2-user/writing/db.sqlite3
+chmod a+x /home/ec2-user/writing/writing/wsgi.py
 chown :apache /home/ec2-user/writing/db.sqlite3
 
 #cd /usr/local
