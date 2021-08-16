@@ -6,8 +6,6 @@ chmod 777 -R /var/www/html
 chown :apache /var/www/html/writing/db.sqlite3
 chown :apache /var/www/html
 
-export DJANGO_SECRET_KEY=1c305b704417038697acaa7eda5e2e3db063157d2d9e9344f87fef76bd7ec1e2c58348f628caa12e92ec28f1b7b1987a99077feee4cd66fd12c939ef68031384
-
 #cd /usr/local
 #wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tgz
 #tar xzf Python-3.6.2.tgz
@@ -20,5 +18,6 @@ export DJANGO_SECRET_KEY=1c305b704417038697acaa7eda5e2e3db063157d2d9e9344f87fef7
 #virtualenv --python=/usr/local/bin/python django-env
 #source django-env/Scripts/activate
 #python -m pip install -r requirements.txt
+
 
 
