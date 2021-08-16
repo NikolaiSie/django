@@ -8,8 +8,11 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 import os
-import django
+import sys
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'writingsite.settings')
+sys.path.append('/var/www/html/')
+sys.path.append('/var/www/html/writing/')
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'writing.writingsite.settings')
 application = get_wsgi_application()
