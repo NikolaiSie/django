@@ -16,7 +16,7 @@ chown :apache /var/www/html
 
 cd /var/www/html/writing
 virtualenv --python=/usr/local/bin/python django-env
-source django-env/bin/activate
+source django-env/Scripts/activate
 python -m pip install -r requirements.txt
 
 
