@@ -16,9 +16,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '1c305b704417038697acaa7eda5e2e3db063157d2d9e9344f87fef76bd7ec1e2c58348f628caa12e92ec28f1b7b1987a99077feee4cd66fd12c939ef68031384'
 
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
 ALLOWED_HOSTS = ['122.248.208.99', 'sigurdvidarsson.com', 'www.sigurdvidarsson.com', '127.0.0.1']
 
 
