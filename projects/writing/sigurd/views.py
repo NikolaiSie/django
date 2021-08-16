@@ -22,7 +22,7 @@ def odinsbane(request):
     return render(request, 'odinsbane.html', {'prologue':prologue, 'chapter1':chapter1})
 
 def poem(request):
-    poem = Poem.objects.get(pk=np.random.randint(1,2))
+    poem = Poem.objects.get(pk=np.random.randint(1,6))
     return render(request, 'poem.html', {'poem':poem})
 
 
