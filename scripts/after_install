@@ -2,9 +2,9 @@
 
 
 usermod -a -G ec2-user apache
-chmod 710 /var/www/html
-chmod 664 /var/www/html/writing/db.sqlite3
+chmod 777 -R /var/www/html
 chown :apache /var/www/html/writing/db.sqlite3
+chown :apache /var/www/html
 
 #cd /usr/local
 #wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tgz
