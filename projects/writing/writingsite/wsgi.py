@@ -1,5 +1,5 @@
 """
-WSGI config for writing project.
+WSGI config for writingsite project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -8,9 +8,8 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 """
 
 import os
-
+import django
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'writing.settings')
-django.setup()
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'writingsite.settings')
 application = get_wsgi_application()
