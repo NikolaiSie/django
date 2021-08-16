@@ -13,8 +13,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import socket
 
-
-import socket
 if socket.gethostname()=="L-H9CFZ33":
     from .local_settings import *
 else:

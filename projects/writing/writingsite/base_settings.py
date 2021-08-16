@@ -20,6 +20,11 @@ DEBUG = False
 ALLOWED_HOSTS = ['122.248.208.99', 'sigurdvidarsson.com', 'www.sigurdvidarsson.com', '127.0.0.1']
 
 
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = False
+
+
 # Application definition
 
 INSTALLED_APPS = [
