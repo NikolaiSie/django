@@ -1,0 +1,33 @@
+
+
+
+h1 {
+    padding: 10px;
+    font-size: 60px;
+    font-family: Helvetica;
+    position: absolute;
+    left: 38%;
+    top: 3%;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+
+
+br {
+   display: block;
+   margin: 10px;
+}
+
+body {
+    background: white url("images/spruce-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+

@@ -1,0 +1,39 @@
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'writing/style.css' %}">
+
+
+<style>
+    button {
+        border: 3px solid rgb(80,0,0);
+        position: relative;
+        font-family: Arial Black;
+        font-size: 17px;
+        top: 25px;
+        left: 91.2%;
+        background-color: rgba(0,0,0,0);
+        color: rgb(80,0,0);
+        width: 130px;
+    }
+</style>
+
+
+
+<div>
+    <form action='/app/odinsbane' method='GET'>
+        <button type='submit'>ODINSBANE</button>
+    </form>
+    <form action='/app/poem' method='GET'>
+        <button type='submit'>POEMS</button>
+    </form>
+    <form action='/app/author' method='GET'>
+        <button type='submit'>AUTHOR</button>
+    </form>
+
+</div>
+
+<h1>A space for words.</h1>
+
+<p>{{ haiku.line_1 }}</p>
+<p>{{ haiku.line_2 }}</p>
+<p>{{ haiku.line_3 }}</p>

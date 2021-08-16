@@ -1,0 +1,57 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'writing/poem.css' %}">
+
+
+<style>
+    button {
+        border: 3px solid;
+        position: relative;
+        font-family: Arial Black;
+        font-size: 17px;
+        top: 25px;
+        left: 91.2%;
+        background-color: rgba(0,0,0,0);
+        width: 130px
+    }
+    .poemBody {
+        line-height: 1.5;
+        height: auto;
+        width: 700px;
+        position: relative;
+        left: 5%;
+        top: -64px;
+        font-size: 20px;
+        font-family: American typewriter;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poem</title>
+</head>
+<body>
+
+<div>
+    <form action='/app' method='GET'>
+        <button type='submit'>HOME</button>
+    </form>
+    <form action='/app/odinsbane' method='GET'>
+        <button type='submit'>ODINSBANE</button>
+    </form>
+    <form action='/app/author' method='GET'>
+        <button type='submit'>AUTHOR</button>
+    </form>
+</div>
+
+<div class="poemBody">
+    <h3>
+        {{ poem.title }}
+    </h3>
+
+    {{ poem.text|linebreaks }}
+</div>
+
+</body>
+</html>

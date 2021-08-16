@@ -1,0 +1,64 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'writing/odinsbane.css' %}">
+
+
+<style>
+    button {
+        border: 3px solid;
+        position: relative;
+        font-family: Arial Black;
+        font-size: 17px;
+        top: 25px;
+        left: 91.2%;
+        background-color: rgba(0,0,0,0);
+        width: 130px
+    }
+    .bookBody {
+        font-size: 22px;
+        width: 900px;
+        position: relative;
+        left: 38%;
+        height: auto;
+        line-height: 1.5;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odinsbane</title>
+</head>
+
+<body>
+
+<div>
+    <form action='/app' method='GET'>
+        <button type='submit'>HOME</button>
+    </form>
+    <form action='/app/poem' method='GET'>
+        <button type='submit'>POEMS</button>
+    </form>
+    <form action='/app/author' method='GET'>
+        <button type='submit'>AUTHOR</button>
+    </form>
+</div>
+
+<h1>Odinsbane</h1>
+
+
+<div class="bookBody">
+    <h3>
+        {{ prologue.title }}
+    </h3>
+    {{ prologue.text|linebreaks }}
+    <br>
+    <h3>
+        {{ chapter1.title }}
+    </h3>
+    {{ chapter1.text|linebreaks }}
+</div>
+
+
+</body>
+</html>
