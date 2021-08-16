@@ -21,10 +21,3 @@ ALLOWED_HOSTS = ['122.248.208.99', 'sigurdvidarsson.com', 'www.sigurdvidarsson.c
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = True
-
-
-# The absolute path to the directory where collectstatic will collect static files for deployment.
-STATIC_ROOT = BASE_DIR / 'static'
-
-# The URL to use when referring to static files (where they will be served from)
-STATIC_URL = '/static/'

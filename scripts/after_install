@@ -16,7 +16,7 @@ export DJANGO_SECRET_KEY=1c305b704417038697acaa7eda5e2e3db063157d2d9e9344f87fef7
 #make altinstall
 #rm.Python-3.6.2.tgz
 
-#cd /var/www/html/writing
+#cd /var/www/html/sigurd
 #virtualenv --python=/usr/local/bin/python django-env
 #source django-env/Scripts/activate
 #python -m pip install -r requirements.txt
