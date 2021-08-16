@@ -9,8 +9,7 @@ from .base_settings import *
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-with open(str(BASE_DIR) + r"/secret_key.txt") as f:
-    SECRET_KEY = f.read().strip()
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
