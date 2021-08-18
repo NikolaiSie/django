@@ -5,11 +5,11 @@ div.buttonBox {
 }
 
 button {
-    border: 3px solid;
+    border: none;
     font-family: Arial Black;
     font-size: 24px;
     background-color: rgba(0,0,0,0);
-    width: 180px
+    width: 170px
 }
 
 

@@ -5,12 +5,12 @@ div.buttonBox {
 }
 
 button {
-    border: 3px solid rgb(80,0,0);
+    border: none;
     font-family: Arial Black;
     font-size: 24px;
     background-color: rgba(0,0,0,0);
     color: rgb(80,0,0);
-    width: 180px;
+    width: 170px;
 }
 
 

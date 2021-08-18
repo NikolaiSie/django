@@ -1,12 +1,47 @@
+div.buttonBox {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+}
 
+button {
+    border: none;
+    font-family: Arial Black;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0);
+    width: 170px
+}
 
+form {
+    display: inline-block;
+}
 
 
 h3 {
-    padding: 10px;
-    font-size: 50px;
+    font-size: 42px;
     font-family: American Typewriter;
 }
+
+
+
+
+
+
+div.authorBody {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 18%;
+}
+p.pitch {
+    font-size: 20px;
+}
+p.email {
+    font-size: 20px;
+}
+
+
 
 
 
