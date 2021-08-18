@@ -1,4 +1,16 @@
+div.buttonBox {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+}
 
+button {
+    border: 3px solid;
+    font-family: Arial Black;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0);
+    width: 180px
+}
 
 
 h3 {
@@ -7,7 +19,23 @@ h3 {
 }
 
 
-
 body {
     background: white;
+}
+
+form {
+    display: inline-block;
+}
+
+
+
+div.poemBody {
+    line-height: 1.5;
+    height: auto;
+    width: 700px;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    font-size: 20px;
+    font-family: American typewriter;
 }
