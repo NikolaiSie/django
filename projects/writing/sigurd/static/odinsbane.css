@@ -53,9 +53,13 @@ br {
 }
 
 body {
-    background: white url("images/spruce-background.jpg");
-    background-size: cover;
+    content: "";
+    display: block;
+    z-index: -10;
+    background: white url("images/spruce-background.jpg") no-repeat center center;
     background-attachment: fixed;
+    background-size: cover;
+    background-origin: border-box;
 }
 
 
