@@ -41,12 +41,12 @@ p {
 div.mainBody {
     position: absolute;
     left: 10%;
-    top: 18%;
+    top: 12%;
 }
 
 
 body {
     background: white url("images/background.gif");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }

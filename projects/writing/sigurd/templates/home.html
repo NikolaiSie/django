@@ -1,7 +1,16 @@
 
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<link rel="shortcut icon" href="{% static 'favicon/favicon.png' %}"/>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A writing spot</title>
+</head>
+
+<body>
 
 <div class="buttonBox">
     <form action='/odinsbane' method='GET'>
@@ -23,3 +32,6 @@
     <p>{{ haiku.line_3 }}</p>
 </div>
 
+
+</body>
+</html>

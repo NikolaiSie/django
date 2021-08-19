@@ -17,10 +17,10 @@ button {
 
 div.bookBody {
     font-size: 22px;
-    width: 900px;
+    width: 100%;
     position: relative;
     left: 38%;
-    top: 18%;
+    top: 27%;
     height: auto;
     line-height: 1.5;
 }
@@ -36,7 +36,7 @@ h1 {
     font-family: Helvetica;
     position: absolute;
     left: 38%;
-    top: 3%;
+    top: 12%;
 }
 
 h3 {
@@ -55,7 +55,7 @@ br {
 body {
     background: white url("images/spruce-background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-attachment: fixed;
 }
 
