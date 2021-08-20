@@ -28,12 +28,13 @@ button {
 
 div.bookBody {
     font-size: 12px;
-    width: 95%;
+    width: 90%;
     height: auto;
     line-height: 1.5;
     position: absolute;
     top: 18%;
     padding: 16px;
+    white-space: pre-line;
 }
 @media (min-width: 600px) {
     div.bookBody {
@@ -54,11 +55,12 @@ form {
 
 
 h1 {
-    padding: 0px;
+    padding: 16px;
     font-size: 24px;
     font-family: Helvetica;
     position: absolute;
     top: 12%;
+    left: 3%;
 }
 @media (min-width: 600px) {
     h1 {
@@ -73,15 +75,11 @@ h1 {
 h3 {
     font-size: 18px;
     font-family: Helvetica;
-    padding: 16px;
     position: absolute;
-    left: 3%;
 }
 @media (min-width: 600px) {
     h3 {
         font-size: 30px;
-        padding: 0px;
-        left: 0;
     }
 }
 
