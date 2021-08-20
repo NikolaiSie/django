@@ -1,29 +1,46 @@
+
+
 div.buttonBox {
     position: absolute;
     right: 2%;
     top: 3%;
 }
 
+
 button {
     border: none;
     font-family: Arial Black;
-    font-size: 24px;
+    font-size: 14px;
     background-color: rgba(0,0,0,0);
-    width: 170px
+    width: 90px
 }
-
+@media (min-width : 600px) {
+    button {
+        font-size: 24px;
+        width: 170px;
+    }
+}
 
 
 
 div.bookBody {
-    font-size: 22px;
+    font-size: 12px;
     width: 100%;
-    position: relative;
-    left: 38%;
-    top: 27%;
     height: auto;
     line-height: 1.5;
+    position: absolute;
+    top: 12%;
 }
+@media (min-width : 600px) {
+    div.bookBody {
+        font-size: 22px;
+        position: relative;
+        left: 38%;
+        top: 27%;
+    }
+}
+
+
 
 form {
     display: inline-block;
@@ -31,31 +48,55 @@ form {
 
 
 h1 {
-    padding: 10px;
-    font-size: 60px;
+    padding: 0px;
+    font-size: 24px;
     font-family: Helvetica;
     position: absolute;
-    left: 38%;
     top: 12%;
+}
+@media (min-width : 600px) {
+    h1 {
+        padding: 10px;
+        font-size: 60px;
+        position: absolute;
+        left: 38%;
+        top: 12%;
+    }
 }
 
 h3 {
-    padding: 10px;
-    font-size: 30px;
+    font-size: 18px;
     font-family: Helvetica;
+}
+@media (min-width : 600px) {
+    h3 {
+        padding: 10px;
+        font-size: 30px;
+    }
 }
 
 
 
 br {
    display: block;
-   margin: 10px;
+   margin: 5px;
+}
+@media (min-width : 600px) {
+    br {
+        padding: 10px;
+    }
 }
 
 body{
-    background: white url("images/spruce-background.jpg") no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
+    background: white;
 }
+@media (min-width : 600px) {
+    body {
+        background: white url("images/spruce-background.jpg") no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
 
 
