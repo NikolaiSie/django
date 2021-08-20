@@ -9,10 +9,17 @@ div.buttonBox {
 button {
     border: none;
     font-family: Arial Black;
-    font-size: 24px;
+    font-size: 14px;
     background-color: rgba(0,0,0,0);
-    width: 170px;
-    color: red;
+    width: 80px;
+    color: black;
+}
+@media (min-width : 600px) {
+    button {
+        font-size: 24px;
+        width: 170px;
+        color: white;
+    }
 }
 
 
@@ -22,59 +29,46 @@ form {
 
 
 h3 {
-    font-size: 42px;
-    font-family: American Typewriter;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+@media (min-width : 600px) {
+    h3 {
+        font-size: 42px;
+        font-family: American Typewriter;
+    }
 }
 
 
 
 body {
-    background: white url("images/pines.jpg") no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
+    background: white;
+}
+@media (min-width : 600px) {
+    body {
+        background: white url("images/pines.jpg") no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 }
 
 
 div.poemBody {
     line-height: 1.5;
     height: auto;
-    width: 30%;
-    position: absolute;
-    top: 12%;
-    left: 10%;
-    font-size: 24px;
-    font-family: American typewriter;
-    color: white;
+    width: 100%;
+    font-size: 14px;
+    font-family: Times New Roman;
 }
-
-
-
-
-
-@media screen and (max-device-width : 480px) {
-    h3 {
-        font-size: 42px;
-        font-family: Times New Roman;
-    }
-
+@media (min-width : 600px) {
     div.poemBody {
-        line-height: 1.5;
-        font-size: 14px;
-        font-family: Times New Roman;
-        width: 100%;
-    }
-
-    body {
-        background: white;
-    }
-
-    button {
-        border: none;
-        font-family: Helvetica;
-        font-size: 16px;
-        background-color: rgba(0,0,0,0);
-        width: 100px;
+        width: 30%;
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        font-size: 24px;
+        font-family: American typewriter;
         color: white;
     }
-
 }
+
