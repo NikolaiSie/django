@@ -1,3 +1,22 @@
+
+
+@media only screen and (max-device-width : 480px) {
+    #h3 {
+        font-size: 42px;
+        font-family: Times New Roman;
+    }
+
+    div#poemBody {
+        line-height: 1.5;
+        font-size: 20px;
+        font-family: Times New Roman;
+    }
+}
+
+
+
+
+
 div.buttonBox {
     position: absolute;
     right: 2%;
@@ -24,8 +43,11 @@ h3 {
 }
 
 
+
 body {
-    background: white;
+    background: white url("images/pines.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -36,6 +58,7 @@ div.poemBody {
     position: absolute;
     top: 12%;
     left: 10%;
-    font-size: 20px;
+    font-size: 24px;
     font-family: American typewriter;
+    color: white;
 }
