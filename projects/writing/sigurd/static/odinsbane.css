@@ -27,7 +27,7 @@ button {
 
 
 div.bookBody {
-    font-size: 12px;
+    font-size: 10px;
     width: 100%;
     height: auto;
     line-height: 1.5;
@@ -52,7 +52,6 @@ form {
 
 
 h1 {
-    padding: 16px;
     font-size: 24px;
     font-family: Helvetica;
     position: absolute;
@@ -61,7 +60,6 @@ h1 {
 }
 @media (min-width: 600px) {
     h1 {
-        padding: 10px;
         font-size: 60px;
         position: absolute;
         left: 38%;
