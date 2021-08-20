@@ -9,9 +9,9 @@ div.buttonBox {
 button {
     border: none;
     font-family: Arial Black;
-    font-size: 14px;
+    font-size: 12px;
     background-color: rgba(0,0,0,0);
-    width: 100px;
+    width: 90px;
     color: black;
 }
 @media (min-width: 600px) {
@@ -61,6 +61,7 @@ div.poemBody {
     font-family: Times New Roman;
     position: absolute;
     top: 12%;
+    padding: 8px;
 }
 @media (min-width: 600px) {
     div.poemBody {
@@ -71,6 +72,7 @@ div.poemBody {
         font-size: 24px;
         font-family: American typewriter;
         color: white;
+        padding: 0px;
     }
 }
 

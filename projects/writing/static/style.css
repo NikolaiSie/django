@@ -7,10 +7,10 @@ div.buttonBox {
 button {
     border: none;
     font-family: Arial Black;
-    font-size: 14px;
+    font-size: 12px;
     background-color: rgba(0,0,0,0);
     color: rgb(80,0,0);
-    width: 100px;
+    width: 90px;
 }
 @media (min-width: 600px) {
     button {
@@ -58,12 +58,14 @@ p {
 div.mainBody {
     position: absolute;
     top: 12%;
+    padding: 8px;
 }
 @media (min-width: 600px) {
     div.mainBody {
         position: absolute;
         left: 10%;
         top: 12%;
+        padding: 0px;
     }
 }
 

@@ -8,9 +8,9 @@ div.buttonBox {
 button {
     border: none;
     font-family: Arial Black;
-    font-size: 14px;
+    font-size: 12px;
     background-color: rgba(0,0,0,0);
-    width: 100px;
+    width: 90px;
 }
 @media (min-width: 600px) {
     button {
@@ -39,6 +39,7 @@ h3 {
 div.authorBody {
     position: absolute;
     top: 12%;
+    padding: 8px;
 }
 @media (min-width: 600px) {
     div.authorBody {
@@ -46,6 +47,7 @@ div.authorBody {
         height: auto;
         position: absolute;
         left: 10%;
+        padding: 0px;
     }
 }
 

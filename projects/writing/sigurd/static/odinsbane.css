@@ -10,9 +10,9 @@ div.buttonBox {
 button {
     border: none;
     font-family: Arial Black;
-    font-size: 14px;
+    font-size: 12px;
     background-color: rgba(0,0,0,0);
-    width: 100px
+    width: 90px;
 }
 @media (min-width: 600px) {
     button {
@@ -30,6 +30,7 @@ div.bookBody {
     line-height: 1.5;
     position: absolute;
     top: 18%;
+    padding: 8px;
 }
 @media (min-width: 600px) {
     div.bookBody {
@@ -37,6 +38,7 @@ div.bookBody {
         position: relative;
         left: 38%;
         top: 27%;
+        padding: 0px;
     }
 }
 
