@@ -28,7 +28,7 @@ button {
 
 div.bookBody {
     font-size: 12px;
-    width: 100%;
+    width: 95%;
     height: auto;
     line-height: 1.5;
     position: absolute;
@@ -39,6 +39,7 @@ div.bookBody {
     div.bookBody {
         font-size: 22px;
         position: relative;
+        width: 100%;
         left: 38%;
         top: 27%;
         padding: 0px;
@@ -73,11 +74,14 @@ h3 {
     font-size: 18px;
     font-family: Helvetica;
     padding: 16px;
+    position: absolute;
+    left: 3%;
 }
 @media (min-width: 600px) {
     h3 {
         font-size: 30px;
         padding: 0px;
+        left: 0;
     }
 }
 
