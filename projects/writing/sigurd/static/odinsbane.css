@@ -9,15 +9,17 @@ div.buttonBox {
 
 button {
     border: none;
-    font-family: Arial Black;
+    font-family: Arial Black sans serif;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
     width: 90px;
+    font-weight: bold;
 }
 @media (min-width: 600px) {
     button {
         font-size: 24px;
         width: 170px;
+        font-weight: normal;
     }
 }
 
@@ -30,7 +32,7 @@ div.bookBody {
     line-height: 1.5;
     position: absolute;
     top: 18%;
-    padding: 8px;
+    padding: 16px;
 }
 @media (min-width: 600px) {
     div.bookBody {
@@ -69,11 +71,13 @@ h1 {
 h3 {
     font-size: 18px;
     font-family: Helvetica;
+    padding: 16px;
 }
 @media (min-width: 600px) {
     h3 {
         padding: 10px;
         font-size: 30px;
+        padding: 0px;
     }
 }
 

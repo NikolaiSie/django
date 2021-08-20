@@ -7,15 +7,17 @@ div.buttonBox {
 
 button {
     border: none;
-    font-family: Arial Black;
+    font-family: Arial Black sans serif;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
     width: 90px;
+    font-weight: bold;
 }
 @media (min-width: 600px) {
     button {
         font-size: 24px;
         width: 170px;
+        font-weight: normal;
     }
 }
 
@@ -39,7 +41,7 @@ h3 {
 div.authorBody {
     position: absolute;
     top: 12%;
-    padding: 8px;
+    padding: 16px;
 }
 @media (min-width: 600px) {
     div.authorBody {
