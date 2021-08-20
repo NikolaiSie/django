@@ -11,10 +11,10 @@ button {
     font-family: Arial Black;
     font-size: 14px;
     background-color: rgba(0,0,0,0);
-    width: 90px;
+    width: 100px;
     color: black;
 }
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     button {
         font-size: 24px;
         width: 170px;
@@ -32,7 +32,7 @@ h3 {
     font-size: 24px;
     font-family: Times New Roman;
 }
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     h3 {
         font-size: 42px;
         font-family: American Typewriter;
@@ -44,7 +44,7 @@ h3 {
 body {
     background: white;
 }
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     body {
         background: white url("images/pines.jpg") no-repeat center center;
         background-attachment: fixed;
@@ -62,7 +62,7 @@ div.poemBody {
     position: absolute;
     top: 12%;
 }
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     div.poemBody {
         width: 30%;
         position: absolute;

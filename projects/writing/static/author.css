@@ -10,9 +10,9 @@ button {
     font-family: Arial Black;
     font-size: 14px;
     background-color: rgba(0,0,0,0);
-    width: 90px;
+    width: 100px;
 }
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     button {
         font-size: 24px;
         width: 170px;
@@ -29,7 +29,7 @@ h3 {
     font-size: 24px;
     font-family: American Typewriter;
 }
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     h3 {
         font-size: 42px;
         font-family: Times New Roman;
@@ -40,7 +40,7 @@ div.authorBody {
     position: absolute;
     top: 12%;
 }
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     div.authorBody {
         width: 700px;
         height: auto;
