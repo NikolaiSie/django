@@ -28,22 +28,19 @@ button {
 
 div.bookBody {
     font-size: 12px;
-    width: 90%;
+    width: 100%;
     height: auto;
     line-height: 1.5;
     position: absolute;
     top: 18%;
-    padding: 16px;
-    white-space: pre-line;
 }
 @media (min-width: 600px) {
     div.bookBody {
         font-size: 22px;
         position: relative;
-        width: 100%;
+        width: 70%;
         left: 38%;
         top: 27%;
-        padding: 0px;
     }
 }
 
@@ -75,7 +72,6 @@ h1 {
 h3 {
     font-size: 18px;
     font-family: Helvetica;
-    position: absolute;
 }
 @media (min-width: 600px) {
     h3 {
