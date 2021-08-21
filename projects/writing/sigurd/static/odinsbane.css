@@ -16,7 +16,7 @@ button {
     font-weight: bold;
     float: right;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     button {
         font-size: 24px;
         width: 170px;
@@ -34,7 +34,7 @@ div.bookBody {
     position: absolute;
     top: 18%;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     div.bookBody {
         font-size: 22px;
         position: relative;
@@ -58,7 +58,7 @@ h1 {
     top: 12%;
     left: 3%;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     h1 {
         font-size: 60px;
         position: absolute;
@@ -71,7 +71,7 @@ h3 {
     font-size: 18px;
     font-family: Helvetica;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     h3 {
         font-size: 30px;
     }
@@ -83,7 +83,7 @@ br {
    display: block;
    margin: 5px;
 }
-@media (min-width : 600px) {
+@media (min-width : 961px) {
     br {
         padding: 10px;
     }
@@ -92,7 +92,7 @@ br {
 body{
     background: white;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     body {
         background: white url("images/spruce-background.jpg") no-repeat center center;
         background-attachment: fixed;

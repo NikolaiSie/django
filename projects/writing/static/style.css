@@ -14,7 +14,7 @@ button {
     font-weight: bold;
     float: right;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     button {
         font-size: 24px;
         width: 170px;
@@ -29,7 +29,7 @@ h1 {
     color: rgb(80,0,0);
     font-family: Helvetica;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     h1 {
         font-size: 72px;
         padding: 10px;
@@ -50,7 +50,7 @@ p {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     p {
         font-size: 24px;
         padding: 5px;
@@ -63,7 +63,7 @@ div.mainBody {
     top: 12%;
     padding: 16px;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     div.mainBody {
         position: absolute;
         left: 10%;
@@ -74,9 +74,18 @@ div.mainBody {
 
 
 body {
-    background: white;
+    background: white url("images/Optimized-background - mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-@media (min-width: 600px) {
+@media (min-width: 641px) {
+    body {
+        background: white url("images/Optimized-background - landscape.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+@media (min-width: 961px) {
     body {
         background: white url("images/Optimized-background.gif");
         background-repeat: no-repeat;

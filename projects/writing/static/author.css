@@ -14,7 +14,7 @@ button {
     font-weight: bold;
     float: right;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     button {
         font-size: 24px;
         width: 170px;
@@ -32,7 +32,7 @@ h3 {
     font-size: 24px;
     font-family: Times New Roman;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     h3 {
         font-size: 42px;
         font-family: American Typewriter;
@@ -44,7 +44,7 @@ div.authorBody {
     top: 12%;
     padding: 16px;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     div.authorBody {
         width: 700px;
         height: auto;
@@ -58,7 +58,7 @@ div.authorBody {
 p.pitch {
     font-size: 14px;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     p.pitch {
         font-size: 20px;
     }
@@ -68,7 +68,7 @@ p.pitch {
 p.email {
     font-size: 14px;
 }
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     p.email {
         font-size: 20px;
     }
