@@ -32,7 +32,7 @@ div.bookBody {
     height: auto;
     line-height: 1.5;
     position: absolute;
-    top: 18%;
+    top: 22%;
 }
 @media (min-width: 961px) {
     div.bookBody {
