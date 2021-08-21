@@ -4,6 +4,11 @@ div.buttonBox {
     top: 3%;
 }
 
+html {
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
+}
+
 button {
     border: none;
     font-family: Arial Black sans serif;
