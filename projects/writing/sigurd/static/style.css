@@ -88,7 +88,7 @@ body {
 @media (min-width: 30em) and (orientation: landscape) {
     body {
         background: white url("images/Optimized-background - landscape.jpg") no-repeat center center fixed;
-        background-size: 100% 100%;
+        background-size: cover;
     }
 }
 @media (min-width: 60em) {
