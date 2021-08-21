@@ -9,6 +9,7 @@ html {
     min-height: 100%; /* enforce height */
     widthL 100vw;
     min-width: 100%;
+    overflow: hidden;
 }
 
 button {
