@@ -16,7 +16,7 @@ button {
     font-weight: bold;
     float: right;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     button {
         font-size: 24px;
         width: 170px;
@@ -27,14 +27,14 @@ button {
 
 
 div.bookBody {
-    font-size: 10px;
+    font-size: 14px;
     width: 100%;
     height: auto;
     line-height: 1.5;
     position: absolute;
     top: 22%;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     div.bookBody {
         font-size: 22px;
         position: relative;
@@ -58,7 +58,7 @@ h1 {
     top: 12%;
     left: 3%;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     h1 {
         font-size: 60px;
         position: absolute;
@@ -71,7 +71,7 @@ h3 {
     font-size: 18px;
     font-family: Helvetica;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     h3 {
         font-size: 30px;
     }
@@ -83,22 +83,40 @@ br {
    display: block;
    margin: 5px;
 }
-@media (min-width : 961px) {
+@media (min-width : 60em) {
     br {
         padding: 10px;
     }
 }
 
 body{
-    background: white;
+    background: white url("images/spruce-background - mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-@media (min-width: 961px) {
+@media (min-width: 30em) and (orientation: landscape) {
+    body {
+        background: white url("images/spruce-background - landscape.jpg") no-repeat center center fixed;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width: 60em) {
     body {
         background: white url("images/spruce-background.jpg") no-repeat center center;
         background-attachment: fixed;
         background-size: cover;
     }
 }
+
+
+
 
 
 

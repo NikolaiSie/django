@@ -14,7 +14,7 @@ button {
     font-weight: bold;
     float: right;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     button {
         font-size: 24px;
         width: 170px;
@@ -29,7 +29,7 @@ h1 {
     color: rgb(80,0,0);
     font-family: Helvetica;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     h1 {
         font-size: 72px;
         padding: 10px;
@@ -50,7 +50,7 @@ p {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     p {
         font-size: 24px;
         padding: 5px;
@@ -63,7 +63,7 @@ div.mainBody {
     top: 12%;
     padding: 16px;
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     div.mainBody {
         position: absolute;
         left: 10%;
@@ -78,14 +78,20 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-@media (min-width: 480px) and (orientation: landscape) {
+@media (min-width: 30em) and (orientation: landscape) {
     body {
-        background: white url("images/Optimized-background - landscape.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background: white url("images/Optimized-background - landscape.jpg") no-repeat center center fixed;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
-@media (min-width: 961px) {
+@media (min-width: 60em) {
     body {
         background: white url("images/Optimized-background.gif");
         background-repeat: no-repeat;
