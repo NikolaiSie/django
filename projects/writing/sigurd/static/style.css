@@ -7,6 +7,8 @@ div.buttonBox {
 html {
     height: 100vh; /* set viewport constraint */
     min-height: 100%; /* enforce height */
+    widthL 100vw;
+    min-width: 100%;
 }
 
 button {
