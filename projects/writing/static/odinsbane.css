@@ -3,7 +3,7 @@
 div.buttonBox {
     position: absolute;
     right: 1%;
-    top: 1%;
+    top: 3vh;
 }
 
 
@@ -32,6 +32,11 @@ div.bookBody {
     line-height: 1.5;
     position: absolute;
     top: 22%;
+}
+@media (min-width: 30em) and (orientation: landscape) {
+    div.bookBody {
+        font-size: 14px;
+    }
 }
 @media (min-width: 60em) {
     div.bookBody {
