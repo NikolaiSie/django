@@ -107,16 +107,13 @@ body:after {
     background-position: bottom right;
 }
 @media (min-width: 30em) and (orientation: landscape) {
-    body {
-        background: white url("images/spruce-background - landscape.jpg") no-repeat center center;
-        background-size: 100% 100%;
+    body:after {
+        background: white url("images/spruce-background - landscape.jpg");
     }
 }
 @media (min-width: 60em) {
-    body {
-        background: white url("images/spruce-background.jpg") no-repeat center center;
-        background-attachment: fixed;
-        background-size: cover;
+    body:after {
+        background: white url("images/spruce-background.jpg");
     }
 }
 
