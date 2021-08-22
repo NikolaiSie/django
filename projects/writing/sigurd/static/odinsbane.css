@@ -62,7 +62,7 @@ h1 {
         font-size: 60px;
         position: absolute;
         left: 38%;
-        top: 12%;
+        top: 1%;
     }
 }
 
@@ -101,10 +101,10 @@ body:after {
     content: '';
     background-image: url("images/spruce-background - mobile.jpg");
     z-index: -1;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #000;
-    background-position: bottom right;
+    background-position: top left;
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body:after {
