@@ -6,11 +6,11 @@ div.buttonBox {
 
 
 body {
-    background: url("images/author-background.jpg");
+    background: url("images/author-background.jpg") no-repeat;
     position: absolute;
     right: 0px;
     bottom 0px;
-    background-size: 50% 50%;
+    background-size: 20% 30%;
 }
 
 

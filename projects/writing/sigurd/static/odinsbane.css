@@ -88,9 +88,22 @@ br {
     }
 }
 
-body{
-    background: white url("images/spruce-background - mobile.jpg") no-repeat center center;
-    background-size: 100% 100%;
+
+body {
+    position: relative;
+}
+body:after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-image: url("images/spruce-background - mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: bottom right;
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body {
