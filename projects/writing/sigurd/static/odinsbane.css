@@ -3,7 +3,7 @@
 div.buttonBox {
     position: absolute;
     right: 1%;
-    top: 3%;
+    top: 1%;
 }
 
 
@@ -101,19 +101,21 @@ body:after {
     content: '';
     background-image: url("images/spruce-background - mobile.jpg");
     z-index: -1;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #000;
     background-position: top left;
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body:after {
-        background: white url("images/spruce-background - landscape.jpg");
+        background: white url("images/spruce-background - landscape.jpg") no-repeat center center;
+        background-size: 100vw 100vh;
     }
 }
 @media (min-width: 60em) {
     body:after {
-        background: white url("images/spruce-background.jpg");
+        background: white url("images/spruce-background.jpg") no-repeat center center;
+        background-size: 100vw 100vh;
     }
 }
 

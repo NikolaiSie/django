@@ -44,23 +44,42 @@ h3 {
 
 
 
+
+
+
 body {
-    background: url("images/poem-background mobile.jpg") no-repeat center center;
-    background-size: 100% 100%;
+    position: relative;
+}
+body:after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-image: url("images/poem-background mobile.jpg");
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: top left;
 }
 @media (min-width: 30em) and (orientation: landscape) {
-    body {
+    body:after {
         background: white url("images/poem-background landscape.jpg") no-repeat center center;
-        background-size: 100% 100%;
+        background-size: 100vw 100vh;
     }
 }
 @media (min-width: 60em) {
-    body {
+    body:after {
         background: white url("images/poem-background.jpg") no-repeat center center;
-        background-attachment: fixed;
-        background-size: 100% 100%;
+        background-size: 100vw 100vh;
     }
 }
+
+
+
+
 
 
 div.poemBody {
