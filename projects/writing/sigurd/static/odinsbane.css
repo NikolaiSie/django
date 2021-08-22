@@ -3,7 +3,7 @@
 div.buttonBox {
     position: absolute;
     right: 1%;
-    top: 3vh;
+    top: 2vh;
 }
 
 
@@ -44,7 +44,7 @@ div.bookBody {
     div.bookBody {
         font-size: 22px;
         position: relative;
-        width: 42%;
+        width: 50%;
         left: 38%;
         top: 27%;
     }

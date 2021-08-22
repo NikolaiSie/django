@@ -1,13 +1,18 @@
 div.buttonBox {
     position: absolute;
     right: 1%;
-    top: 3%;
+    top: 2vh;
 }
 
 
 body {
     background: url("images/author-background.jpg") no-repeat right bottom;
     background-size: 25% 30%;
+}
+@media (min-width: 30em) and (orientation: landscape) {
+    div.bookBody {
+        background-size: 13% 30%;
+    }
 }
 @media (min-width: 60em) {
     body {
