@@ -10,7 +10,7 @@ body {
     background-size: 25% 30%;
 }
 @media (min-width: 60em) {
-    button {
+    body {
         background-size: 15% 30%;
     }
 }
