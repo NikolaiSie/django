@@ -45,20 +45,18 @@ h3 {
 
 
 body {
-    background: whiteurl("images/poem-background mobile.jpg") no-repeat;
-    background-attachment: scroll;
+    background: url("images/poem-background mobile.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body {
-        background: white url("images/poem-background landscape.jpg") no-repeat;
-        background-attachment: scroll;
+        background: white url("images/poem-background landscape.jpg") no-repeat center center;
         background-size: 100% 100%;
     }
 }
 @media (min-width: 60em) {
     body {
-        background: white url("images/poem-background.jpg") no-repeat;
+        background: white url("images/poem-background.jpg") no-repeat center center;
         background-attachment: fixed;
         background-size: 100% 100%;
     }
