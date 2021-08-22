@@ -6,8 +6,6 @@ from .models import Haiku, Chapter, Poem
 
 def index(request):
     haiku_id = datetime.datetime.now().strftime("%d")
-    # Temp solution
-    haiku_id = 1
     haiku = Haiku.objects.get(pk=haiku_id)
     return render(request, 'home.html', {'haiku':haiku, "line": haiku_id})
 
@@ -22,7 +20,8 @@ def odinsbane(request):
     return render(request, 'odinsbane.html', {'prologue':prologue, 'chapter1':chapter1})
 
 def poem(request):
-    poem = Poem.objects.get(pk=np.random.randint(1,6))
+    num_poems = Poem.objects.all().count()
+    poem = Poem.objects.get(pk=np.random.randint(1,num_poems + 1))
     return render(request, 'poem.html', {'poem':poem})
 
 

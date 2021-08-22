@@ -28,7 +28,6 @@ button {
 
 div.bookBody {
     font-size: 11px;
-    width: 100%;
     height: auto;
     line-height: 1.5;
     position: absolute;
@@ -96,15 +95,9 @@ body{
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body {
-        background: white url("images/spruce-background - landscape.jpg") no-repeat center center fixed;
-        -webkit-background-size: 100%;
-        -moz-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 100%;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background: white url("images/spruce-background - landscape.jpg") no-repeat center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 }
 @media (min-width: 60em) {
