@@ -6,16 +6,17 @@ div.buttonBox {
 
 
 body {
-    background: url("images/author-background.jpg") no-repeat right bottom;
-    background-size: 35% 30%;
+    background: white;
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body {
+        background: url("images/author-background.jpg") no-repeat right bottom;
         background-size: 15% 42%;
     }
 }
 @media (min-width: 60em) {
     body {
+        background: url("images/author-background.jpg") no-repeat right bottom;
         background-size: 15% 30%;
     }
 }
@@ -63,7 +64,7 @@ div.authorBody {
 }
 @media (min-width: 60em) {
     div.authorBody {
-        width: 700px;
+        width: 62%;
         height: auto;
         position: absolute;
         left: 10%;
