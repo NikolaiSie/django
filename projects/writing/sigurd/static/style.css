@@ -4,10 +4,23 @@ div.buttonBox {
     top: 2vh;
 }
 
+
+div.haikuBody {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+@media (min-width: 60em) {
+    div.haikuBody {
+        position: absolute;
+        top: 120%;
+    }
+}
+
 html {
     height: 100vh; /* set viewport constraint */
     min-height: 100%; /* enforce height */
-    widthL 100vw;
+    width: 100vw;
     min-width: 100%;
     overflow: hidden;
 }
@@ -75,7 +88,7 @@ div.mainBody {
     div.mainBody {
         position: absolute;
         left: 10%;
-        top: 12%;
+        top: 8%;
         padding: 0px;
     }
 }

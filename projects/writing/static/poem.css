@@ -11,7 +11,7 @@ button {
     font-family: Arial Black sans serif;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
-    width: 80px;
+    width: 90px;
     color: black;
     font-weight: bold;
     float: right;
@@ -85,7 +85,7 @@ body:after {
 div.poemBody {
     line-height: 1.5;
     height: auto;
-    font-size: 13px;
+    font-size: 14px;
     font-family: Times New Roman;
     position: absolute;
     top: 12%;

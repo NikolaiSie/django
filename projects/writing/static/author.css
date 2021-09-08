@@ -11,7 +11,7 @@ body {
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body {
-        background-size: 10% 30%;
+        background-size: 15% 42%;
     }
 }
 @media (min-width: 60em) {
@@ -72,29 +72,13 @@ div.authorBody {
 }
 
 
-p.pitch {
-    font-size: 14px;
-}
-@media (min-width: 60em) {
-    p.pitch {
-        font-size: 20px;
-    }
-}
-
-
-p.email {
-    font-size: 14px;
-}
-@media (min-width: 60em) {
-    p.email {
-        font-size: 20px;
-    }
-}
-
-
-
-
-
 p {
-    font-family: Helvetica
+    font-size: 14px;
+    font-family: Helvetica;
+    line-height: 1.5;
+}
+@media (min-width: 60em) {
+    p {
+        font-size: 20px;
+    }
 }
