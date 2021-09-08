@@ -17,3 +17,7 @@ class Chapter(models.Model):
 class Poem(models.Model):
     title = models.CharField(max_length=200, null=True)
     text = models.TextField(null=True)
+
+class Story(models.Model):
+    title = models.CharField(max_length=200, null=True)
+    text = models.TextField(null=True)
