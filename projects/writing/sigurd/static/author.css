@@ -10,11 +10,10 @@ body {
 }
 @media (min-width: 30em) and (orientation: landscape) {
     body {
-        background: url("images/author-background.jpg") no-repeat right bottom;
-        background-size: 15% 42%;
+        background: white;
     }
 }
-@media (min-width: 60em) {
+@media (min-width: 75em) {
     body {
         background: url("images/author-background.jpg") no-repeat right bottom;
         background-size: 15% 30%;
