@@ -13,7 +13,7 @@ div.haikuBody {
 @media (min-width: 60em) {
     div.haikuBody {
         position: absolute;
-        top: 120%;
+        top: 80%;
     }
 }
 
