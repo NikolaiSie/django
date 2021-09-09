@@ -87,7 +87,7 @@ div.mainBody {
 @media (min-width: 60em) {
     div.mainBody {
         position: absolute;
-        left: 10%;
+        left: 8%;
         top: 8%;
         padding: 0px;
     }
