@@ -101,6 +101,7 @@ button {
     font-weight: bold;
     float: right;
     display: block;
+    margin: -10px;
 }
 @media (min-width: 60em) {
     button {
@@ -114,7 +115,7 @@ button {
 
 
 form {
-    display: block;
+    display: inline-block;
 }
 
 

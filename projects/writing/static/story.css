@@ -100,12 +100,14 @@ button {
     font-weight: bold;
     float: right;
     display: block;
+    margin: -10px;
 }
 @media (min-width: 60em) {
     button {
         font-size: 24px;
         width: 170px;
         font-family: Arial Black;
+        margin: 0;
     }
 }
 
@@ -140,7 +142,7 @@ div.storyBody {
 
 
 form {
-    display: block;
+    display: inline-block;
 }
 
 
