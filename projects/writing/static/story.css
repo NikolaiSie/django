@@ -99,6 +99,7 @@ button {
     width: 90px;
     font-weight: bold;
     float: right;
+    display: block;
 }
 @media (min-width: 60em) {
     button {
@@ -139,7 +140,7 @@ div.storyBody {
 
 
 form {
-    display: inline-block;
+    display: block;
 }
 
 
@@ -147,7 +148,7 @@ h3 {
     font-size: 18px;
     font-family: Helvetica;
     position: relative;
-    top: 5vh;
+    top: 2vh;
 }
 @media (min-width: 60em) {
     h3 {
