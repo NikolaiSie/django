@@ -100,7 +100,7 @@ button {
     color: black;
     font-weight: bold;
     float: right;
-    display: inline-block;
+    display: block;
     margin: -10px;
 }
 @media (min-width: 60em) {
