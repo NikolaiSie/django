@@ -29,7 +29,7 @@ label.dropbtn {
     font-weight: bold;
     float: right;
     position: relative;
-    top: 2vh;
+    top: -2vh;
     left: 2vh;
     display:block;
     cursor:pointer;
