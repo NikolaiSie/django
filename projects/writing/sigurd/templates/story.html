@@ -1,19 +1,22 @@
-
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'story.css' %}">
 <link rel="shortcut icon" href="{% static 'favicon/favicon.png' %}"/>
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A writing spot</title>
+    <title>Story</title>
 </head>
 
 <body>
 
 <div class="buttonBox">
+    <form action='/' method='GET'>
+        <button type='submit'>HOME</button>
+    </form>
     <form action='/odinsbane' method='GET'>
         <button type='submit'>ODINSBANE</button>
     </form>
@@ -34,13 +37,15 @@
     </form>
 </div>
 
-<div class="mainBody">
-    <h1>A space for words.</h1>
-    <div class="haikuBody">
-        <p>{{ haiku.line_1 }}</p>
-        <p>{{ haiku.line_2 }}</p>
-        <p>{{ haiku.line_3 }}</p>
-    </div>
+
+<div class="storyBody">
+
+    <h3>
+        {{ story.title }}
+    </h3>
+
+    {{ story.text|linebreaks }}
+
 </div>
 
 

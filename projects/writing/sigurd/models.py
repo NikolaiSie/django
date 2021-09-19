@@ -21,3 +21,4 @@ class Poem(models.Model):
 class Story(models.Model):
     title = models.CharField(max_length=200, null=True)
     text = models.TextField(null=True)
+    theme = models.CharField(max_length=200, null=True)

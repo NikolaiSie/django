@@ -1,22 +1,5 @@
 
 
-button {
-    border: none;
-    font-family: Arial Black sans serif;
-    font-size: 12px;
-    background-color: rgba(0,0,0,0);
-    color: rgb(80,0,0);
-    width: 90px;
-    font-weight: bold;
-    float: right;
-}
-@media (min-width: 60em) {
-    button {
-        font-size: 24px;
-        width: 170px;
-        font-family: Arial Black;
-    }
-}
 
 
 label.dropbtn {
@@ -25,7 +8,7 @@ label.dropbtn {
     font-family: Arial Black sans serif;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
-    color: rgb(80,0,0);
+    color: rgb(0,0,0);
     font-weight: bold;
     float: right;
     position: relative;
@@ -100,7 +83,6 @@ div.dropdown-content a {
 
 
 
-
 div.buttonBox {
     position: absolute;
     right: 1%;
@@ -108,42 +90,50 @@ div.buttonBox {
 }
 
 
-div.haikuBody {
+button {
+    border: none;
+    font-family: Arial Black sans serif;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0);
+    width: 90px;
+    font-weight: bold;
+    float: right;
+}
+@media (min-width: 60em) {
+    button {
+        font-size: 24px;
+        width: 170px;
+        font-family: Arial Black;
+    }
+}
+
+
+
+
+
+div.storyBody {
+    font-size: 14px;
+    height: auto;
+    line-height: 1.5;
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 5%;
+    text-align: justify;
+    text-justify: inter-word;
 }
-@media (min-width: 60em) {
-    div.haikuBody {
-        position: absolute;
-        top: 90%;
+@media (min-width: 30em) and (orientation: landscape) {
+    div.storyBody {
+        font-size: 14px;
     }
 }
-
-html {
-    height: 100vh; /* set viewport constraint */
-    min-height: 100%; /* enforce height */
-    width: 100vw;
-    min-width: 100%;
-    overflow: hidden;
-}
-
-
-
-h1 {
-    padding: 0px;
-    font-size: 32px;
-    color: rgb(80,0,0);
-    font-family: Helvetica;
-}
 @media (min-width: 60em) {
-    h1 {
-        font-size: 72px;
-        padding: 10px;
+    div.storyBody {
+        font-size: 22px;
+        position: relative;
+        width: 50%;
+        left: 38%;
+        top: 12%;
     }
 }
-
-
 
 
 
@@ -152,49 +142,61 @@ form {
 }
 
 
-p {
-    color: rgb(80,0,0);
-    padding: 0px;
-    font-family: Helvetica, sans-serif;
-    font-size: 16px;
+h3 {
+    font-size: 18px;
+    font-family: Helvetica;
 }
 @media (min-width: 60em) {
-    p {
-        font-size: 24px;
-        padding: 5px;
+    h3 {
+        font-size: 30px;
     }
 }
 
 
-div.mainBody {
-    position: absolute;
-    top: 12%;
-    padding: 16px;
+
+br {
+   display: block;
+   margin: 5px;
 }
-@media (min-width: 60em) {
-    div.mainBody {
-        position: absolute;
-        left: 7%;
-        top: 5%;
-        padding: 0px;
+@media (min-width : 60em) {
+    br {
+        padding: 10px;
     }
 }
 
 
 body {
-    background: white url("images/Optimized-background - mobile.jpg") no-repeat;
-    background-size: 100% 100%;
+    position: relative;
+}
+body:after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-image: url("images/spruce-background - mobile.jpg");
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: top left;
 }
 @media (min-width: 30em) and (orientation: landscape) {
-    body {
-        background: white url("images/Optimized-background - landscape.jpg") no-repeat;
-        background-size: 100% 100%;
+    body:after {
+        background: white url("images/spruce-background - landscape.jpg") no-repeat center center;
+        background-size: 100vw 100vh;
     }
 }
 @media (min-width: 60em) {
-    body {
-        background: white url("images/Optimized-background.gif");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
+    body:after {
+        background: white url("images/spruce-background.jpg") no-repeat center center;
+        background-size: 100vw 100vh;
     }
 }
+
+
+
+
+
+
