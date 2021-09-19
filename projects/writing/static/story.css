@@ -12,8 +12,8 @@ label.dropbtn {
     font-weight: bold;
     float: right;
     position: relative;
-    top: -2vh;
-    left: 1.5vh;
+    top: 0;
+    left: 2vh;
     display:block;
     cursor:pointer;
 }
@@ -87,6 +87,7 @@ div.buttonBox {
     position: absolute;
     right: 1%;
     top: 2vh;
+    font-size: 0;
 }
 
 

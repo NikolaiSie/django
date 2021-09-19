@@ -1,9 +1,94 @@
 
 
+
+
+label.dropbtn {
+    border: none;
+    width: 90px;
+    font-family: Arial Black sans serif;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0);
+    color: rgb(0,0,0);
+    font-weight: bold;
+    float: right;
+    position: relative;
+    top: 0;
+    left: 2vh;
+    display:block;
+    cursor:pointer;
+}
+@media (min-width: 60em) {
+    label.dropbtn {
+        font-size: 24px;
+        width: 170px;
+        font-family: Arial Black;
+    }
+}
+
+
+input.dropcheck {
+    position: absolute;
+    left: -9999px;
+}
+
+input.dropcheck:checked ~ .dropdown-content {
+  display: block;
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+@media (min-width: 60em) {
+    div.dropdown-content {
+        width: 170px;
+    }
+}
+
+div.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial Black sans serif;
+    font-weight: lighter;
+}
+@media (min-width: 60em) {
+    div.dropdown-content a {
+        font-size: 20px;
+        font-family: Arial;
+    }
+}
+
+
+
+@media (min-width: 60em) {
+
+    div.dropdown:hover .dropdown-content {display: block;}
+    div.dropdown-content a:hover {background-color: rgba(80,80,80,0.7);}
+    div.dropdown:hover .dropbtn {background-color: rgba(0,0,0,0);}
+
+}
+
+
+
+
+
 div.buttonBox {
     position: absolute;
     right: 1%;
     top: 2vh;
+    font-size: 0;
 }
 
 button {
