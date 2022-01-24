@@ -95,7 +95,7 @@ button {
     border: none;
     font-family: Arial sans serif;
     font-size: 12px;
-    background-color: rgba(0,0,0,0);
+    background-color: black;
     width: 90px;
     font-weight: bold;
     float: right;
