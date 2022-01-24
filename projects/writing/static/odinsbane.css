@@ -5,7 +5,7 @@
 label.dropbtn {
     border: none;
     width: 90px;
-    font-family: Arial Black sans serif;
+    font-family: Arial sans serif;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
     color: rgb(0,0,0);
@@ -21,7 +21,7 @@ label.dropbtn {
     label.dropbtn {
         font-size: 24px;
         width: 170px;
-        font-family: Arial Black;
+        font-family: Arial sans serif;
         top: 0;
     }
 }
@@ -61,13 +61,13 @@ div.dropdown-content a {
     font-size: 12px;
     text-decoration: none;
     display: block;
-    font-family: Arial Black sans serif;
+    font-family: Arial sans serif;
     font-weight: lighter;
 }
 @media (min-width: 60em) {
     div.dropdown-content a {
         font-size: 20px;
-        font-family: Arial;
+        font-family: Arial sans serif;
     }
 }
 
@@ -93,7 +93,7 @@ div.buttonBox {
 
 button {
     border: none;
-    font-family: Arial Black sans serif;
+    font-family: Arial sans serif;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
     width: 90px;
@@ -104,7 +104,7 @@ button {
     button {
         font-size: 24px;
         width: 170px;
-        font-family: Arial Black;
+        font-family: Arial sans serif;
     }
 }
 
@@ -145,7 +145,7 @@ form {
 
 h1 {
     font-size: 24px;
-    font-family: Helvetica;
+    font-family: Arial sans serif;
 }
 @media (min-width: 60em) {
     h1 {
@@ -155,7 +155,7 @@ h1 {
 
 h3 {
     font-size: 18px;
-    font-family: Helvetica;
+    font-family: Arial sans serif;
 }
 @media (min-width: 60em) {
     h3 {

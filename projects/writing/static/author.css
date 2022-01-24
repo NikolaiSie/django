@@ -5,7 +5,7 @@
 label.dropbtn {
     border: none;
     width: 90px;
-    font-family: Arial Black sans serif;
+    font-family: Arial;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
     color: rgb(0,0,0);
@@ -21,7 +21,7 @@ label.dropbtn {
     label.dropbtn {
         font-size: 24px;
         width: 170px;
-        font-family: Arial Black;
+        font-family: Arial;
         top: 0;
     }
 }
@@ -61,7 +61,7 @@ div.dropdown-content a {
     font-size: 12px;
     text-decoration: none;
     display: block;
-    font-family: Arial Black sans serif;
+    font-family: Arial;
     font-weight: lighter;
 }
 @media (min-width: 60em) {
@@ -110,7 +110,7 @@ body {
 
 button {
     border: none;
-    font-family: Arial Black sans serif;
+    font-family: Arial;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
     width: 90px;
@@ -121,7 +121,7 @@ button {
     button {
         font-size: 24px;
         width: 170px;
-        font-family: Arial Black;
+        font-family: Arial;
     }
 }
 
@@ -133,12 +133,12 @@ form {
 
 h3 {
     font-size: 24px;
-    font-family: Times New Roman;
+    font-family: Arial;
 }
 @media (min-width: 60em) {
     h3 {
         font-size: 42px;
-        font-family: American Typewriter;
+        font-family: Arial;
     }
 }
 
@@ -160,7 +160,7 @@ div.authorBody {
 
 p {
     font-size: 14px;
-    font-family: Helvetica;
+    font-family: Arial;
     line-height: 1.5;
 }
 @media (min-width: 60em) {
