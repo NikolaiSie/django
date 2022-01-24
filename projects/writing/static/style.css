@@ -78,7 +78,7 @@ div.dropdown-content a {
     font-size: 12px;
     text-decoration: none;
     display: block;
-    font-family: Arial Black sans serif;
+    font-family: Arial sans serif;
     font-weight: lighter;
 }
 @media (min-width: 60em) {

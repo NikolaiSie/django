@@ -97,6 +97,7 @@ button {
     font-family: Arial sans serif;
     font-size: 12px;
     background-color: rgba(0,0,0,0);
+    color: black;
     width: 90px;
     font-weight: bold;
     float: right;
@@ -135,7 +136,7 @@ div.storyBody {
         font-size: 22px;
         position: relative;
         width: 50%;
-        left: 38%;
+        left: 5%;
         top: 12.5%;
     }
 }
