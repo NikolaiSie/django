@@ -3,3 +3,4 @@ Django==2.1.15
 numpy==1.19.5
 pytz==2020.1
 sqlparse==0.4.1
+boto3=1.21.20
