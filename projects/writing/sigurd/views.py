@@ -17,7 +17,8 @@ def haiku_by_id(request, haiku_id):
 def odinsbane(request):
     prologue = Chapter.objects.get(pk=1)
     chapter1 = Chapter.objects.get(pk=2)
-    return render(request, 'odinsbane.html', {'prologue': prologue, 'chapter1': chapter1})
+    chapter2 = Chapter.objects.get(pk=3)
+    return render(request, 'odinsbane.html', {'prologue': prologue, 'chapter1': chapter1, 'chapter2': chapter2})
 
 def poem(request):
     num_poems = Poem.objects.all().count()
