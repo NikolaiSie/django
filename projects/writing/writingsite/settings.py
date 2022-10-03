@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import socket
 
-if socket.gethostname()=="L-H9CFZ33":
+if socket.gethostname() in ["L-H9CFZ33", "LAPTOP-R7NHPM8N"]:
     from .local_settings import *
 else:
     from .prod_settings import *
