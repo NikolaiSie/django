@@ -1,1 +1,1 @@
-Trying to update the django app in lightsail
+Django app for writer website.
