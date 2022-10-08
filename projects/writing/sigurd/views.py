@@ -7,10 +7,7 @@ from .models import Haiku, Chapter, Poem, Story
 def index(request):
     haiku_id = datetime.datetime.now().strftime("%d")
     haiku = Haiku.objects.get(pk=haiku_id)
-
-    # Remove leading 0 in id
     haiku_id = haiku_id.lstrip("0")
-
     return render(request, 'home.html', {'haiku': haiku, "line": haiku_id})
 
 
