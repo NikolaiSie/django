@@ -27,6 +27,25 @@ label.dropbtn {
 }
 
 
+div.story-icon {
+    float: left;
+}
+
+
+div.story-link {
+    overflow: hidden;
+}
+
+img.icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    opacity: 0.5;
+}
+
+
 input.dropcheck {
     position: absolute;
     left: -9999px;
