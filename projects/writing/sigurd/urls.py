@@ -8,5 +8,5 @@ urlpatterns = [
      path('story/<int:story_id>', views.story_by_id, name='story_by_id'),
      path('odinsbane', views.odinsbane, name='odinsbane'),
      path('poem', views.poem, name='poem'),
-     path('author', views.author, name='author')
+     path('author', views.author, name='author'),
 ]
