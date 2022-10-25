@@ -18,7 +18,9 @@ class Poem(models.Model):
     title = models.CharField(max_length=200, null=True)
     text = models.TextField(null=True)
 
+
 class Story(models.Model):
     title = models.CharField(max_length=200, null=True)
     text = models.TextField(null=True)
     theme = models.CharField(max_length=200, null=True)
+    id = models.IntegerField(null=False, primary_key=True)
