@@ -36,6 +36,12 @@ div.story-link {
     overflow: hidden;
 }
 
+div.fb-share-button {
+    position: relative;
+    left: 1%;
+    top: 3vh;
+}
+
 img.icon {
     width: 20px;
     height: 20px;
